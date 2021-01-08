@@ -1,0 +1,165 @@
+@import "./componentStyle/_style-about", "./componentStyle/_style-header",
+  "./componentStyle/_style-navbar", "./componentStyle/_style-services",
+  "./componentStyle/_style-CTA", "./componentStyle/_style-portfolio",
+  "./componentStyle/_price-competing", "./componentStyle/_style-faq",
+  "./componentStyle/_style-team", "./componentStyle/_style-contact",
+  "./componentStyle/style-footer";
+
+section {
+  margin-top: 80px;
+}
+.description_p {
+  width: 50%;
+}
+.section_title {
+  text-align: center;
+  padding-bottom: 30px;
+  z-index: 999;
+
+  h3 {
+    font-size: 32px;
+    margin: 15px 0 0 0;
+    font-weight: 700;
+    color: #493c3e;
+
+    span {
+      color: #0275d8;
+    }
+  }
+
+  h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    padding: 8px 20px;
+    background: #eef3f8;
+    color: #0275d8;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+  }
+
+  p {
+    margin: 15px auto 0 auto;
+    font-weight: 600;
+  }
+}
+
+h4 {
+  font-size: 42px;
+  color: #0275d8;
+  font-weight: 500;
+  sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+}
+
+// active icont
+.navbar-toggler {
+  outline: none !important;
+  color: transparent !important;
+  width: 40px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+}
+.icofont-navigation-menu,
+.icofont-close {
+  color: white !important;
+  text-align: center;
+  font-size: 25px;
+}
+
+// =========================================== animated schroll changed navbar active toggle ===========================================
+.active_changed_logo {
+  display: inline-block !important;
+  transition: all 0.55s ease-in-out;
+}
+.active_changed_navbar {
+  background-color: #313131;
+  transition: all 0.55s ease-in-out;
+  z-index: 99999;
+}
+// / =========================================== animated preloader ===========================================
+#loader {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+  background: url("../asset/img/background/loader.gif");
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 768px) {
+  .description_p {
+    width: 70%;
+  }
+}
+// ====================responsive brekpoints ====================
+@media (max-width: 991px) {
+  #navbarNavDropdown {
+    overflow-y: scroll;
+    background-color: #313131;
+    color: white;
+    height: 80vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  .navbar {
+    .nav-link {
+      padding: 10px 0 10px 5px !important;
+    }
+  }
+}
+@media (min-width: 190px) and (max-width: 500px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+}
+@media (max-width: 631px) {
+  #logo {
+    width: 200px !important;
+  }
+
+  #hero {
+    h1 {
+      font-size: 38px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  .description_p {
+    width: 100% !important;
+  }
+  #logo {
+    width: 200px !important;
+  }
+
+  #hero {
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 15px;
+    }
+    h3 {
+      font-size: 15px;
+    }
+    .hero-started-link {
+      padding: 5px 20px !important;
+    }
+  }
+}
