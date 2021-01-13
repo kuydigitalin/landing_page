@@ -1,8 +1,7 @@
 .navbar {
   &-brand {
     #logo {
-      border-radius: 5px;
-      width: 230px;
+      width: 70px !important;
     }
   }
 
@@ -13,5 +12,15 @@
     color: #fff;
     font-size: 15px;
     font-weight: 600;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    &-brand {
+      #logo {
+        width: 50px !important;
+      }
+    }
   }
 }

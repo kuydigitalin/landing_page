@@ -133,8 +133,7 @@
 }
 
 .navbar-brand #logo {
-  border-radius: 5px;
-  width: 230px;
+  width: 70px !important;
 }
 
 .navbar .nav-item {
@@ -145,6 +144,12 @@
   color: #fff;
   font-size: 15px;
   font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .navbar-brand #logo {
+    width: 50px !important;
+  }
 }
 
 #service .iconts_box {
@@ -204,31 +209,8 @@
   color: white;
 }
 
-#service .iconts_box_mini {
-  margin-top: 30px;
-  -webkit-box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
-          box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: stretch;
-      -ms-flex-pack: stretch;
-          justify-content: stretch;
-  padding: 20px;
-}
-
-#service .iconts_box_mini h3 {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-#service .iconts_box_mini i {
-  color: #0275d8;
-  margin-right: 10px;
-  font-size: 32px;
+#service #kumpulan_kami {
+  margin-top: 130px;
 }
 
 #cta {
@@ -457,6 +439,7 @@
 
 #team .card img {
   border-top-left-radius: 120px;
+  height: 300px;
 }
 
 #team .card .social-media {
