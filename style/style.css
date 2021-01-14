@@ -839,7 +839,7 @@ h4 sup {
 }
 
 .active_changed_navbar {
-  background-color: #313131;
+  background-color: #0275d8;
   -webkit-transition: all 0.55s ease-in-out;
   transition: all 0.55s ease-in-out;
   z-index: 99999;
