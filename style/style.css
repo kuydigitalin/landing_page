@@ -178,6 +178,7 @@
 }
 
 #service .iconts_box {
+  width: 100%;
   position: relative;
   overflow: hidden;
   padding: 60px 30px;
@@ -215,7 +216,6 @@
 
 #service #kumpulan_kami .list-keungulan {
   margin-top: 30px;
-  margin-bottom: 32px;
 }
 
 #service #kumpulan_kami .list-keungulan h4 {
