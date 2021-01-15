@@ -781,6 +781,10 @@ footer .copyright .title_socialmedia a i {
   margin-right: 10px;
 }
 
+#blog .description-menu a:hover {
+  color: blue !important;
+}
+
 #blog .description-menu a i {
   margin-right: 5px;
 }
