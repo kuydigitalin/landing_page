@@ -306,6 +306,10 @@
   color: white;
 }
 
+#cta #staticBackdrop {
+  z-index: 999999;
+}
+
 #portfolio img {
   width: 100%;
   margin-bottom: 15px;
@@ -337,8 +341,7 @@
   margin-bottom: 10px;
 }
 
-#portfolio #exampleModal,
-#portfolio #staticBackdrop {
+#portfolio #exampleModal {
   z-index: 99999;
 }
 
