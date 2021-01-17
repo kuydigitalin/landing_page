@@ -232,7 +232,7 @@
 #cta {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 2, 2, 0.5)), to(rgba(0, 0, 0, 0.8))), url("https://bootstrapmade.com/demo/templates/Tempo/assets/img/cta-bg.jpg") center center;
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("https://bootstrapmade.com/demo/templates/Tempo/assets/img/cta-bg.jpg") center center;
-  height: 279px;
+  padding: 100px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
