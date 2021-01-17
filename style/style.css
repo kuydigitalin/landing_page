@@ -243,6 +243,7 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  background-attachment: fixed;
 }
 
 #cta .content_cta h2 {
@@ -255,26 +256,61 @@
 }
 
 #cta .btn {
-  text-transform: uppercase;
   margin-top: 20px;
   color: white;
   border-radius: 50px;
-  border: 1px solid white;
   padding: 8px 40px;
   font-size: 16px;
+  margin-right: 5px;
 }
 
-#cta .btn:hover {
-  background-color: #e43c5c;
-  border-color: #e43c5c;
+#cta .btn i {
+  margin-right: 5px;
+}
+
+#cta .whatsapp {
+  border: 1px solid #25d366;
+}
+
+#cta .whatsapp i {
+  color: #25d366;
+}
+
+#cta .whatsapp:hover {
   -webkit-transition: all 0.55s ease;
   transition: all 0.55s ease;
+  background-color: #25d366;
+  border-color: #25d366;
+}
+
+#cta .whatsapp:hover i {
+  color: white;
+}
+
+#cta .penawaran {
+  border: 1px solid #0d6efd;
+}
+
+#cta .penawaran i {
+  color: #0d6efd;
+}
+
+#cta .penawaran:hover {
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+#cta .penawaran:hover i {
+  color: white;
 }
 
 #portfolio img {
   width: 100%;
   margin-bottom: 15px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 #portfolio .container ul {
@@ -299,6 +335,11 @@
   padding: 3px 20px;
   border: 1px solid #0275d8;
   margin-bottom: 10px;
+}
+
+#portfolio #exampleModal,
+#portfolio #staticBackdrop {
+  z-index: 99999;
 }
 
 #price_competing .btn {
